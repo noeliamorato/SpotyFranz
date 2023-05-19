@@ -1,7 +1,7 @@
 {% extends "template.html" %}
 {% block contenido %}
 
-        <form action="/crear" method="post">
+        <form action="{{url_for('crear')}}" method="post">
             <fieldset>
                 <div class="form-group">
                     <label for="titulo">Titulo</label>
